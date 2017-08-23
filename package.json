@@ -1,34 +1,36 @@
 {
-  "name": "gimbus",
-  "version": "0.1.4",
-  "description": "Node.js API for gimb.us (http://gimb.us) URL shortener.",
-  "main": "index.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AshleyTheCatgirl/gimbus.js.git"
-  },
-  "keywords": [
-    "url",
-    "shortener",
-    "gimbus",
-    "gimb.us",
-    "API"
-  ],
-  "author": "Ashley the Catgirl <me@ashley.re> (http://ashley.re/en.html)",
-  "licenses": [
-    {
-  	  "type": "WTFPL",
-  	  "url": "http://www.wtfpl.net/txt/copying/"
-  	}
-  ],
-  "devDependencies": {
-    "chai": "~1.9.0",
-    "mocha": "~1.17.1"
-  },
-  "dependencies": {
-    "request": "~2.34.0"
-  }
+    "name": "gimbus",
+    "version": "1.0.0",
+    "description": "Node.js API for gimb.us (https://gimb.us) URL shortener.",
+    "main": "index.js",
+    "bin": ".bin/cli.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AshleyTheCatgirl/gimbus.js.git"
+    },
+    "keywords": [
+        "url",
+        "shortener",
+        "gimbus",
+        "gimb.us",
+        "API"
+    ],
+    "author": "Ashley the Catgirl <me@ashley.re> (http://ashley.re/en.html)",
+    "licenses": [
+        {
+            "type": "WTFPL",
+            "url": "http://www.wtfpl.net/txt/copying/"
+        }
+    ],
+    "dependencies": {
+        "commander": "^2.11.0",
+        "request": "^2.81.0"
+    },
+    "devDependencies": {
+        "chai": "^4.1.1",
+        "mocha": "^3.5.0"
+    }
 }
